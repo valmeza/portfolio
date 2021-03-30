@@ -8,6 +8,12 @@ import { MobileHambugerButtonComponent } from './components/header/mobile-hambug
 import { MobileHeaderComponent } from './components/header/mobile-header/mobile-header.component';
 import { MobileRoutingLinksComponent } from './components/header/mobile-routing-links/mobile-routing-links.component';
 import { RoutingLinksComponent } from './components/header/routing-links/routing-links.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectComponent } from './pages/project/project.component';
+import { HomeContainerDetailsComponent } from './pages/home/home-container-details/home-container-details.component';
+import { HomeDetailsComponent } from './pages/home/home-details/home-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { RoutingLinksComponent } from './components/header/routing-links/routing
     MobileHambugerButtonComponent,
     MobileHeaderComponent,
     MobileRoutingLinksComponent,
-    RoutingLinksComponent
+    RoutingLinksComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    ProjectComponent,
+    HomeContainerDetailsComponent,
+    HomeDetailsComponent
   ],
   imports: [
     BrowserModule,
