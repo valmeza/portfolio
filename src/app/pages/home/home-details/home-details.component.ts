@@ -9,6 +9,7 @@ export class HomeDetailsComponent implements OnInit {
   fullName = 'Valeria Cuevas Meza';
   hour: number = new Date().getHours();
   greeting: string = '';
+  icon: string = '';
 
   constructor() {}
 
@@ -19,10 +20,13 @@ export class HomeDetailsComponent implements OnInit {
   getCurrentHour(): void {
     if (this.hour < 12) {
       this.greeting = 'morning';
+      this.icon = 'far fa-sun';
     } else if (this.hour >= 12 && this.hour <= 17) {
       this.greeting = 'afternoon';
+      this.icon = 'far fa-sun'
     } else if (this.hour > 17 && this.hour <= 24) {
       this.greeting = 'evening';
+      this.icon = 'far far-moon'
     }
   }
 }
