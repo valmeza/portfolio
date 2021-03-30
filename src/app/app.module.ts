@@ -17,6 +17,9 @@ import { HomeDetailsComponent } from './pages/home/home-details/home-details.com
 import { FooterComponent } from './components/footer/footer.component';
 import { FooterDetailsComponent } from './components/footer/footer-details/footer-details.component';
 import { KonamiCodeComponent } from './components/konami-code/konami-code.component';
+import { SkillsComponent } from './pages/about/skills/skills.component';
+import { HobbiesComponent } from './pages/about/hobbies/hobbies.component';
+import { AutobiographyComponent } from './pages/about/autobiography/autobiography.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { KonamiCodeComponent } from './components/konami-code/konami-code.compon
     HomeDetailsComponent,
     FooterComponent,
     FooterDetailsComponent,
-    KonamiCodeComponent
+    KonamiCodeComponent,
+    SkillsComponent,
+    HobbiesComponent,
+    AutobiographyComponent
   ],
   imports: [
     BrowserModule,
