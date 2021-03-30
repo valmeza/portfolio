@@ -1,0 +1,23 @@
+.mario {
+  position: absolute;
+  left: -117px;
+  animation-name: drive;
+  animation-duration: 6s;
+}
+
+.luigi {
+  position: absolute;
+  left: -120px;
+  bottom: 50px;
+  animation-name: drive;
+  animation-duration: 7s;
+}
+
+@keyframes drive {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(2500px);
+  }
+}
