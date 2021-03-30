@@ -20,6 +20,12 @@ import { KonamiCodeComponent } from './components/konami-code/konami-code.compon
 import { SkillsComponent } from './pages/about/skills/skills.component';
 import { HobbiesComponent } from './pages/about/hobbies/hobbies.component';
 import { AutobiographyComponent } from './pages/about/autobiography/autobiography.component';
+import { CringeDadJokeGeneratorComponent } from './pages/about/cringe-dad-joke-generator/cringe-dad-joke-generator.component';
+import { ButtonComponent } from './components/button/button.component';
+import { CoffeeProjectComponent } from './pages/project/coffee-project/coffee-project.component';
+import { DadlisterComponent } from './pages/project/dadlister/dadlister.component';
+import { HobbyistComponent } from './pages/project/hobbyist/hobbyist.component';
+import { BugWarsComponent } from './pages/project/bug-wars/bug-wars.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +46,13 @@ import { AutobiographyComponent } from './pages/about/autobiography/autobiograph
     KonamiCodeComponent,
     SkillsComponent,
     HobbiesComponent,
-    AutobiographyComponent
+    AutobiographyComponent,
+    CringeDadJokeGeneratorComponent,
+    ButtonComponent,
+    CoffeeProjectComponent,
+    DadlisterComponent,
+    HobbyistComponent,
+    BugWarsComponent,
   ],
   imports: [
     BrowserModule,
