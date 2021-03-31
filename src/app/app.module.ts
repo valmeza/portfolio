@@ -26,6 +26,8 @@ import { CoffeeProjectComponent } from './pages/project/coffee-project/coffee-pr
 import { DadlisterComponent } from './pages/project/dadlister/dadlister.component';
 import { HobbyistComponent } from './pages/project/hobbyist/hobbyist.component';
 import { BugWarsComponent } from './pages/project/bug-wars/bug-wars.component';
+import { SocialMediaComponent } from './pages/contact/social-media/social-media.component';
+import { EmailMeComponent } from './pages/contact/email-me/email-me.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { BugWarsComponent } from './pages/project/bug-wars/bug-wars.component';
     DadlisterComponent,
     HobbyistComponent,
     BugWarsComponent,
+    SocialMediaComponent,
+    EmailMeComponent,
   ],
   imports: [
     BrowserModule,
