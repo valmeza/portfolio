@@ -26,7 +26,7 @@ export class HomeDetailsComponent implements OnInit {
       this.icon = 'far fa-sun'
     } else if (this.hour > 17 && this.hour <= 24) {
       this.greeting = 'evening';
-      this.icon = 'far far-moon'
+      this.icon = 'far fa-moon'
     }
   }
 }
